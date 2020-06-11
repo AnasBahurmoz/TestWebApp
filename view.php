@@ -14,7 +14,7 @@
   //display table
   echo "<table border='1'>";
   $tsql= "SELECT * FROM [dbo].[restaurant]";
- $getResults= sqlsrv_query($conn, $sql);
+ $getResults= sqlsrv_query($conn, $tsql);
 
 if ($getResults == FALSE)
 {
